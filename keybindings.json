@@ -84,5 +84,10 @@
     "key": "cmd+j",
     "when": "codeActionMenuVisible",
     "command": "selectNextCodeAction"
+  },
+  {
+    "key": "cmd+g",
+    "command": "togglePeekWidgetFocus",
+    "when": "inReferenceSearchEditor || referenceSearchVisible"
   }
 ]
